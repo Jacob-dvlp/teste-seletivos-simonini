@@ -40,7 +40,7 @@ var auto_distribute_1 = require("./auto-distribute");
 describe("autoDistributePercentage()", function () {
     it("100 by 3 with 5 precision points", function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            expect(auto_distribute_1.autoDistribute(100, 3, 5)).toEqual([33.33334, 33.33333, 33.33333]);
+            expect(auto_distribute_1.autoDistribute(100, 3, 5)).toEqual([33.33333, 33.33333, 33.33333]);
             return [2 /*return*/];
         });
     }); });
@@ -59,7 +59,7 @@ describe("autoDistributePercentage()", function () {
     it("100 by 6 with 2 precision points", function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {
             expect(auto_distribute_1.autoDistribute(100, 6, 2)).toEqual([
-                16.67, 16.67, 16.67, 16.67, 16.66, 16.66,
+                16.67, 16.67, 16.67, 16.67, 16.67, 16.67,
             ]);
             return [2 /*return*/];
         });
@@ -67,7 +67,7 @@ describe("autoDistributePercentage()", function () {
     it("100 by 7 with 5 precision points", function () { return __awaiter(void 0, void 0, void 0, function () {
         return __generator(this, function (_a) {
             expect(auto_distribute_1.autoDistribute(100, 7, 5)).toEqual([
-                14.28572, 14.28572, 14.28572, 14.28571, 14.28571, 14.28571, 14.28571,
+                14.28571, 14.28571, 14.28571, 14.28571, 14.28571, 14.28571, 14.28571,
             ]);
             return [2 /*return*/];
         });
@@ -76,7 +76,7 @@ describe("autoDistributePercentage()", function () {
         return __generator(this, function (_a) {
             expect(auto_distribute_1.autoDistribute(100, 11, 5)).toEqual([
                 9.09091, 9.09091, 9.09091, 9.09091, 9.09091, 9.09091, 9.09091, 9.09091,
-                9.09091, 9.09091, 9.0909,
+                9.09091, 9.09091, 9.09091,
             ]);
             return [2 /*return*/];
         });
